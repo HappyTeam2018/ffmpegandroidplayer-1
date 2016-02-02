@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/play_mp3"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="播放mp3" />
+
+    <Button
+        android:id="@+id/play_ape"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="播放ape" />
+
+    <Button
+        android:id="@+id/play_flac"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="播放flac" />
+
+    <Button
+        android:id="@+id/play_net_song"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="播放网络歌曲" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="停止" />
+
+</LinearLayout>
